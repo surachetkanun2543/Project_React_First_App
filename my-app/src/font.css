@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@500&family=Prompt:wght@300&display=swap');
+
+
+
+div , h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: 'Athiti', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+.title {
+    font-family: 'Athiti', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
